@@ -196,7 +196,7 @@ export function renderStyles (ssrContext: SSRContext, rendererContext: RendererC
 }
 
 export function getResources (ssrContext: SSRContext, rendererContext: RendererContext): LinkAttributes[] {
-  return [...getPreloadLinks(ssrContext, rendererContext), ...getPrefetchLinks(ssrContext, rendererContext)]
+  return [];
 }
 
 export function renderResourceHints (ssrContext: SSRContext, rendererContext: RendererContext): string {
